@@ -1,0 +1,118 @@
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.csproj.SuggestedBindingRedirects.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD\obj\Debug\MAD.FormPrincipal.resources
+D:\Actividades\MAD\MAD\bin\Debug\MAD.exe.config
+D:\Actividades\MAD\MAD\bin\Debug\MAD.exe
+D:\Actividades\MAD\MAD\bin\Debug\MAD.pdb
+D:\Actividades\MAD\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormInicio.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormNuevaContra.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormPrincipal.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormRecuperacion.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormRegistro.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.Properties.Resources.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+D:\Actividades\MAD\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+D:\Actividades\MAD\MAD\obj\Debug\MAD.exe
+D:\Actividades\MAD\MAD\obj\Debug\MAD.pdb
+D:\Actividades\MAD\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormPrincipal.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.FormUsuario.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD2\MAD\MAD\obj\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormPrincipal.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormUsuario.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormNuevaPassword.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD3\MAD\MAD\obj\Debug\MAD.FormNuevaResp.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormNuevaPassword.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormNuevaResp.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormPrincipal.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.FormUsuario.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD4\MAD\MAD\obj\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormNuevaPassword.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormNuevaResp.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormPrincipal.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.FormUsuario.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD5\MAD\obj\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\bin\Debug\MAD.exe.config
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\bin\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\bin\Debug\MAD.pdb
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.csproj.AssemblyReference.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormInicio.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormNuevaContra.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormNuevaPassword.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormNuevaResp.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormPrincipal.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormRecuperacion.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormRegistro.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.FormUsuario.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.Properties.Resources.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.RJTextBoxcs.resources
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.csproj.GenerateResource.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.exe
+C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.pdb
