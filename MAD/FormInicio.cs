@@ -83,5 +83,15 @@ namespace MAD
         {
 
         }
+
+        private void BTN_close_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BTN_minimize_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

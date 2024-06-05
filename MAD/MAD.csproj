@@ -178,5 +178,32 @@
   <ItemGroup>
     <None Include="Imagenes\calendarWhite.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\boton-cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\tomillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\tomillos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\MyTomillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\bibliaTomillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Imagenes\Background3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

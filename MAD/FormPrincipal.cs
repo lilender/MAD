@@ -107,13 +107,14 @@ namespace MAD
                 L_Con_Versiculo.Add(new RichTextBox());
                 this.panel1.Controls.Add(L_Con_Versiculo[i]);
                 L_Con_Versiculo[i].Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right | System.Windows.Forms.AnchorStyles.Left)));
-                L_Con_Versiculo[i].BackColor = System.Drawing.Color.Azure;
+                L_Con_Versiculo[i].BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(221)))), ((int)(((byte)(236)))));
                 L_Con_Versiculo[i].BorderStyle = System.Windows.Forms.BorderStyle.None;
                 L_Con_Versiculo[i].Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 L_Con_Versiculo[i].Location = new System.Drawing.Point(30, 40 + (i * 120));
                 L_Con_Versiculo[i].Name = "L_Con_Versiculo";
                 L_Con_Versiculo[i].Size = new System.Drawing.Size(panel1.Width - 60, 42);
                 L_Con_Versiculo[i].Text = tabla.Rows[i].ItemArray[4].ToString();
+                L_Con_Versiculo[i].ForeColor = System.Drawing.Color.Navy;
                 L_Con_Versiculo[i].Visible = true;
                 L_Con_Versiculo[i].ReadOnly = true;
 
@@ -138,7 +139,7 @@ namespace MAD
                 B_Con_Copiar[i].FlatAppearance.BorderSize = 0;
                 B_Con_Copiar[i].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_Con_Copiar[i].ForeColor = System.Drawing.Color.Navy;
-                B_Con_Copiar[i].TextColor = System.Drawing.Color.Navy;
+                B_Con_Copiar[i].TextColor = System.Drawing.Color.White;
                 B_Con_Copiar[i].Click += new EventHandler(B_Con_Copiar_Click);
 
                 B_Con_Agregar.Add(new RJButton());
@@ -164,7 +165,7 @@ namespace MAD
                 B_Con_Agregar[i].FlatAppearance.BorderSize = 0;
                 B_Con_Agregar[i].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_Con_Agregar[i].ForeColor = System.Drawing.Color.Navy;
-                B_Con_Agregar[i].TextColor = System.Drawing.Color.Navy;
+                B_Con_Agregar[i].TextColor = System.Drawing.Color.White;
                 B_Con_Agregar[i].Click += new EventHandler(B_Con_Agregar_Click);
                 if(i == max)
                 {
@@ -214,7 +215,7 @@ namespace MAD
                 L_Fav_Versiculo.Add(new RichTextBox());
                 this.panel1.Controls.Add(L_Fav_Versiculo[n_control]);
                 L_Fav_Versiculo[n_control].Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right | System.Windows.Forms.AnchorStyles.Left)));
-                L_Fav_Versiculo[n_control].BackColor = System.Drawing.Color.Azure;
+                L_Fav_Versiculo[n_control].BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(185)))), ((int)(((byte)(221)))), ((int)(((byte)(236)))));
                 L_Fav_Versiculo[n_control].BorderStyle = System.Windows.Forms.BorderStyle.None;
                 L_Fav_Versiculo[n_control].Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                 L_Fav_Versiculo[n_control].Location = new System.Drawing.Point(30, 65 + (n_control * 110));
@@ -244,7 +245,7 @@ namespace MAD
                 B_Fav_Quitar[n_control].FlatAppearance.BorderSize = 0;
                 B_Fav_Quitar[n_control].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_Fav_Quitar[n_control].ForeColor = System.Drawing.Color.Navy;
-                B_Fav_Quitar[n_control].TextColor = System.Drawing.Color.Navy;
+                B_Fav_Quitar[n_control].TextColor = System.Drawing.Color.White;
                 B_Fav_Quitar[n_control].Click += new EventHandler(B_Fav_Quitar_Click);
 
                 L_Fav_Dir.Add(new Label());
@@ -300,7 +301,7 @@ namespace MAD
                 B_Con_Copiar[n_control].FlatAppearance.BorderSize = 0;
                 B_Con_Copiar[n_control].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_Con_Copiar[n_control].ForeColor = System.Drawing.Color.Navy;
-                B_Con_Copiar[n_control].TextColor = System.Drawing.Color.Navy;
+                B_Con_Copiar[n_control].TextColor = System.Drawing.Color.White;
                 B_Con_Copiar[n_control].Click += new EventHandler(B_Con_Copiar_Click);
                 n_control++;
             }
@@ -408,7 +409,7 @@ namespace MAD
                 B_His_Resultados[i].FlatAppearance.BorderSize = 0;
                 B_His_Resultados[i].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_His_Resultados[i].ForeColor = System.Drawing.Color.Navy;
-                B_His_Resultados[i].TextColor = System.Drawing.Color.Navy;
+                B_His_Resultados[i].TextColor = System.Drawing.Color.White;
                 B_His_Resultados[i].Click += new EventHandler(B_His_Resultados_Click);
 
                 B_His_Borrar.Add(new RJButton());
@@ -431,7 +432,7 @@ namespace MAD
                 B_His_Borrar[i].FlatAppearance.BorderSize = 0;
                 B_His_Borrar[i].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_His_Borrar[i].ForeColor = System.Drawing.Color.Navy;
-                B_His_Borrar[i].TextColor = System.Drawing.Color.Navy;
+                B_His_Borrar[i].TextColor = System.Drawing.Color.White;
                 B_His_Borrar[i].Click += new EventHandler(B_His_Borrar_Click);
             }
             B_His_Borrar.Add(new RJButton());
@@ -454,7 +455,7 @@ namespace MAD
             B_His_Borrar[tabla.Rows.Count].FlatAppearance.BorderSize = 0;
             B_His_Borrar[tabla.Rows.Count].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             B_His_Borrar[tabla.Rows.Count].ForeColor = System.Drawing.Color.Navy;
-            B_His_Borrar[tabla.Rows.Count].TextColor = System.Drawing.Color.Navy;
+            B_His_Borrar[tabla.Rows.Count].TextColor = System.Drawing.Color.White;
             B_His_Borrar[tabla.Rows.Count].Click += new EventHandler(B_His_Borrar_Click);
             panel1.AutoScrollMinSize = new System.Drawing.Size(0, tabla.Rows.Count * 80 + 50);
 
@@ -651,7 +652,7 @@ namespace MAD
                 B_Con_Copiar[n_control].FlatAppearance.BorderSize = 0;
                 B_Con_Copiar[n_control].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 B_Con_Copiar[n_control].ForeColor = System.Drawing.Color.Navy;
-                B_Con_Copiar[n_control].TextColor = System.Drawing.Color.Navy;
+                B_Con_Copiar[n_control].TextColor = System.Drawing.Color.White;
                 B_Con_Copiar[n_control].Click += new EventHandler(B_Con_Copiar_Click);
                 n_control++;
             }
@@ -906,7 +907,7 @@ namespace MAD
             B_Con_Copiar[0].FlatAppearance.BorderSize = 0;
             B_Con_Copiar[0].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             B_Con_Copiar[0].ForeColor = System.Drawing.Color.Navy;
-            B_Con_Copiar[0].TextColor = System.Drawing.Color.Navy;
+            B_Con_Copiar[0].TextColor = System.Drawing.Color.White;
             B_Con_Copiar[0].Click += new EventHandler(B_Con_Copiar_Click);
 
             B_Con_Agregar.Add(new RJButton());
@@ -1002,7 +1003,7 @@ namespace MAD
             B_Con_Copiar[0].FlatAppearance.BorderSize = 0;
             B_Con_Copiar[0].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             B_Con_Copiar[0].ForeColor = System.Drawing.Color.Navy;
-            B_Con_Copiar[0].TextColor = System.Drawing.Color.Navy;
+            B_Con_Copiar[0].TextColor = System.Drawing.Color.White;
             B_Con_Copiar[0].Click += new EventHandler(B_Con_Copiar_Click);
 
             B_Con_Agregar.Add(new RJButton());
@@ -1028,7 +1029,7 @@ namespace MAD
             B_Con_Agregar[0].FlatAppearance.BorderSize = 0;
             B_Con_Agregar[0].FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             B_Con_Agregar[0].ForeColor = System.Drawing.Color.Navy;
-            B_Con_Agregar[0].TextColor = System.Drawing.Color.Navy;
+            B_Con_Agregar[0].TextColor = System.Drawing.Color.White;
             B_Con_Agregar[0].Click += new EventHandler(B_Con_Agregar_Click);
 
             panel1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
@@ -1154,5 +1155,14 @@ namespace MAD
             B_Favoritos_Click(sender, e);
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
