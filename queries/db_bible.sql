@@ -144,8 +144,8 @@ CREATE TABLE Versiculos
 	Id_Libro SMALLINT NOT NULL,
 	NumeroCap TINYINT NOT NULL,
 	NumeroVers TINYINT NOT NULL,
-	Texto TEXT NOT NULL,
-	Id_Vers SMALLINT NOT NULL IDENTITY(1,1), -- esta columna ya solo queda informativa, no es PK
+	Texto TEXT NOT NULL
+	--Id_Vers SMALLINT NOT NULL IDENTITY(1,1), -- esta columna ya solo queda informativa, no es PK
 	CONSTRAINT PK_Versiculos
 		PRIMARY KEY(Id_Version, Id_Libro, NumeroCap, NumeroVers), --PK Compuesta
 	CONSTRAINT FK_Vers_Libro
@@ -156,3 +156,4 @@ CREATE TABLE Versiculos
 			REFERENCES Versiones(Id_Version) -- tabla en la cual está la PK
 );
 PRINT 'Tabla Versiculos Creada';
+

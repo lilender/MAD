@@ -61,7 +61,7 @@ ELSE
 				BEGIN
 				IF (@capitulo = '0')
 					BEGIN
-					SELECT ver.NumeroCap, ver.Id_Vers
+					SELECT ver.NumeroCap --, ver.Id_Vers
 					FROM DB_Bible.dbo.Idiomas i
 					JOIN DB_Bible.dbo.Versiones v ON v.Id_Idioma = i.Id_Idioma
 					JOIN DB_Bible.dbo.Testamentos t ON t.Id_Idioma = v.Id_Idioma

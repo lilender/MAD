@@ -3,7 +3,7 @@ Go
 
 BEGIN TRAN
 
-TRUNCATE TABLE Versiculos;
+
 
 -- la versiÛn a utilizar es la RV60
 -- idioma a utilizar: EspaÒol
@@ -10223,436 +10223,320 @@ insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
 
 
 /*
-Script para la inserci√≥n de datos de la Biblia
+Script para la inserciÛn de datos de la Biblia
 
 MAD 
 Ago-Dic 2023
 Grupo 055
 
-1873789 Andrea Berenice Reyna Guti√©rrez 
-2034261 Jos√© Armando Hern√°ndez Santander
+1873789 Andrea Berenice Reyna GutiÈrrez 
+2034261 JosÈ Armando Hern·ndez Santander
 
-Libro: Lev√≠tico
-Cap√≠tulos: 7, 8 y 9
+Libro: LevÌtico
+CapÌtulos: 7, 8 y 9
 
 
 */
 
---Libro Lev√≠tico -> Capitulo 7
+--Libro LevÌtico -> Capitulo 7
 INSERT INTO Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
 Values (1, 3, 7, 1, 'Asimismo esta es la ley del sacrificio por la culpa; es cosa muy santa.')
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 2, 'En el lugar donde deg√ºellan el holocausto, degollar√°n la v√≠ctima por la 
-culpa; y rociar√° su sangre alrededor sobre el altar.');
+Values (1, 3, 7, 2, 'En el lugar donde deg¸ellan el holocausto, degollar·n la vÌctima por la culpa; y rociar· su sangre alrededor sobre el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 3, 'Y de ella ofrecer√° toda su grosura, la cola, y la grosura que cubre 
-los intestinos,');
+Values (1, 3, 7, 3, 'Y de ella ofrecer· toda su grosura, la cola, y la grosura que cubre los intestinos,');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 4, 'los dos ri√±ones, la grosura que est√° sobre ellos, y la que est√° sobre
-los ijares; y con los ri√±ones quitar√° la grosura de sobre el h√≠gado. ');
+Values (1, 3, 7, 4, 'los dos riÒones, la grosura que est· sobre ellos, y la que est· sobre los ijares; y con los riÒones quitar· la grosura de sobre el hÌgado. ');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 5, 'Y el sacerdote lo har√° arder sobre el altar, ofrenda encendida a 
-Jehov√°; es expiaci√≥n de la culpa.');
+Values (1, 3, 7, 5, 'Y el sacerdote lo har· arder sobre el altar, ofrenda encendida a Jehov·; es expiaciÛn de la culpa.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 6, 'Todo var√≥n de entre los sacerdotes la comer√°; ser√° comida en lugar
-santo; es cosa muy santa.');
+Values (1, 3, 7, 6, 'Todo varÛn de entre los sacerdotes la comer·; ser· comida en lugar santo; es cosa muy santa.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 7, 'Como el sacrificio por el pecado, as√≠ es el sacrificio por la culpa;
-una misma ley tendr√°n; ser√° del sacerdote que hiciere la expiaci√≥n con ella.');
+Values (1, 3, 7, 7, 'Como el sacrificio por el pecado, asÌ es el sacrificio por la culpa; una misma ley tendr·n; ser· del sacerdote que hiciere la expiaciÛn con ella.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 8, 'Y el sacerdote que ofreciere holocausto de alguno, la piel del 
-holocausto que ofreciere ser√° para √©l.');
+Values (1, 3, 7, 8, 'Y el sacerdote que ofreciere holocausto de alguno, la piel del holocausto que ofreciere ser· para Èl.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 9, 'Asimismo toda ofrenda que se cociere en horno, y todo lo que
-fuere preparado en sart√©n o en cazuela, ser√° del sacerdote que lo ofreciere.');
+Values (1, 3, 7, 9, 'Asimismo toda ofrenda que se cociere en horno, y todo lo que fuere preparado en sartÈn o en cazuela, ser· del sacerdote que lo ofreciere.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 10, 'Y toda ofrenda amasada con aceite, o seca, ser√° de todos los
-hijos de Aar√≥n, tanto de uno como de otro.');
+Values (1, 3, 7, 10, 'Y toda ofrenda amasada con aceite, o seca, ser· de todos los hijos de AarÛn, tanto de uno como de otro.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7,11, 'Y esta es la ley del sacrificio de paz que se ofrecer√° a Jehov√°:');
+Values (1, 3, 7,11, 'Y esta es la ley del sacrificio de paz que se ofrecer· a Jehov·:');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 12, 'Si se ofreciere en acci√≥n de gracias, ofrecer√° por sacrificio 
-de acci√≥n de gracias tortas sin levadura amasadas con aceite, y hojaldres sin 
-levadura untadas con aceite, y flor de harina frita en tortas amasadas con aceite. ');
+Values (1, 3, 7, 12, 'Si se ofreciere en acciÛn de gracias, ofrecer· por sacrificio de acciÛn de gracias tortas sin levadura amasadas con aceite, y hojaldres sin levadura untadas con aceite, y flor de harina frita en tortas amasadas con aceite. ');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 13, 'Con tortas de pan leudo presentar√° su ofrenda en el sacrificio
-de acciones de gracias de paz.');
+Values (1, 3, 7, 13, 'Con tortas de pan leudo presentar· su ofrenda en el sacrificio de acciones de gracias de paz.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 14, 'Y de toda la ofrenda presentar√° una parte por ofrenda elevada 
-a Jehov√°, y ser√° del sacerdote que rociare la sangre de los sacrificios de paz.');
+Values (1, 3, 7, 14, 'Y de toda la ofrenda presentar· una parte por ofrenda elevada a Jehov·, y ser· del sacerdote que rociare la sangre de los sacrificios de paz.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 15, 'Y la carne del sacrificio de paz en acci√≥n de gracias se 
-comer√° en el d√≠a que fuere ofrecida; no dejar√°n de ella nada para otro d√≠a.');
+Values (1, 3, 7, 15, 'Y la carne del sacrificio de paz en acciÛn de gracias se comer· en el dÌa que fuere ofrecida; no dejar·n de ella nada para otro dÌa.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 16, 'Mas si el sacrificio de su ofrenda fuere voto, o voluntario,
-ser√° comido en el d√≠a que ofreciere su sacrificio, y lo que de √©l quedare, lo 
-comer√°n al d√≠a siguiente;');
+Values (1, 3, 7, 16, 'Mas si el sacrificio de su ofrenda fuere voto, o voluntario, ser· comido en el dÌa que ofreciere su sacrificio, y lo que de Èl quedare, lo comer·n al dÌa siguiente;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 17, 'y lo que quedare de la carne del sacrificio hasta el tercer 
-d√≠a, ser√° quemado en el fuego.');
+Values (1, 3, 7, 17, 'y lo que quedare de la carne del sacrificio hasta el tercer dÌa, ser· quemado en el fuego.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 18, 'Si se comiere de la carne del sacrificio de paz al tercer 
-d√≠a, el que lo ofreciere no ser√° acepto, ni le ser√° contado; abominaci√≥n ser√°, y 
-la persona que de √©l comiere llevar√° su pecado.');
+Values (1, 3, 7, 18, 'Si se comiere de la carne del sacrificio de paz al tercer dÌa, el que lo ofreciere no ser· acepto, ni le ser· contado; abominaciÛn ser·, y la persona que de Èl comiere llevar· su pecado.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 19, 'Y la carne que tocare alguna cosa inmunda, no se comer√°; 
-al fuego ser√° quemada. Toda persona limpia podr√° comer la carne; ');
+Values (1, 3, 7, 19, 'Y la carne que tocare alguna cosa inmunda, no se comer·; al fuego ser· quemada. Toda persona limpia podr· comer la carne; ');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 20, 'pero la persona que comiere la carne del sacrificio de paz,
-el cual es de Jehov√°, estando inmunda, aquella persona ser√° cortada de entre su pueblo.');
+Values (1, 3, 7, 20, 'pero la persona que comiere la carne del sacrificio de paz, el cual es de Jehov·, estando inmunda, aquella persona ser· cortada de entre su pueblo.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 21, 'Adem√°s, la persona que tocare alguna cosa inmunda, inmundicia 
-de hombre, o animal inmundo, o cualquier abominaci√≥n inmunda, y comiere la carne del
-sacrificio de paz, el cual es de Jehov√°, aquella persona ser√° cortada de entre su pueblo.');
+Values (1, 3, 7, 21, 'Adem·s, la persona que tocare alguna cosa inmunda, inmundicia de hombre, o animal inmundo, o cualquier abominaciÛn inmunda, y comiere la carne delsacrificio de paz, el cual es de Jehov·, aquella persona ser· cortada de entre su pueblo.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 22, 'Habl√≥ m√°s Jehov√° a Mois√©s, diciendo:');
+Values (1, 3, 7, 22, 'HablÛ m·s Jehov· a MoisÈs, diciendo:');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 23, 'Habla a los hijos de Israel, diciendo: Ninguna grosura de buey
-ni de cordero ni de cabra comer√©is.');
+Values (1, 3, 7, 23, 'Habla a los hijos de Israel, diciendo: Ninguna grosura de buey ni de cordero ni de cabra comerÈis.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 24, 'La grosura de animal muerto, y la grosura del que fue despedazado
-por fieras, se dispondr√° para cualquier otro uso, mas no la comer√©is.');
+Values (1, 3, 7, 24, 'La grosura de animal muerto, y la grosura del que fue despedazado por fieras, se dispondr· para cualquier otro uso, mas no la comerÈis.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 25, 'Porque cualquiera que comiere grosura de animal, del cual se
-ofrece a Jehov√° ofrenda encendida, la persona que lo comiere ser√° cortada de entre 
-su pueblo.');
+Values (1, 3, 7, 25, 'Porque cualquiera que comiere grosura de animal, del cual se ofrece a Jehov· ofrenda encendida, la persona que lo comiere ser· cortada de entre su pueblo.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 26, 'Adem√°s, ninguna sangre comer√©is en ning√∫n lugar en donde 
-habit√©is, ni de aves ni de bestias.');
+Values (1, 3, 7, 26, 'Adem·s, ninguna sangre comerÈis en ning˙n lugar en donde habitÈis, ni de aves ni de bestias.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 27, 'Cualquiera persona que comiere de alguna sangre, la tal 
-persona ser√° cortada de entre su pueblo.');
+Values (1, 3, 7, 27, 'Cualquiera persona que comiere de alguna sangre, la tal persona ser· cortada de entre su pueblo.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 28, 'Habl√≥ m√°s Jehov√° a Mois√©s, diciendo:');
+Values (1, 3, 7, 28, 'HablÛ m·s Jehov· a MoisÈs, diciendo:');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 29, 'Habla a los hijos de Israel y diles: El que ofreciere 
-sacrificio de paz a Jehov√°, traer√° su ofrenda del sacrificio de paz ante Jehov√°.');
+Values (1, 3, 7, 29, 'Habla a los hijos de Israel y diles: El que ofreciere sacrificio de paz a Jehov·, traer· su ofrenda del sacrificio de paz ante Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 30, 'Sus manos traer√°n las ofrendas que se han de quemar ante
-Jehov√°; traer√° la grosura con el pecho; el pecho para que sea mecido como 
-sacrificio mecido delante de Jehov√°.');
+Values (1, 3, 7, 30, 'Sus manos traer·n las ofrendas que se han de quemar ante Jehov·; traer· la grosura con el pecho; el pecho para que sea mecido como sacrificio mecido delante de Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 31, 'Y la grosura la har√° arder el sacerdote en el altar, 
-mas el pecho ser√° de Aar√≥n y de sus hijos.');
+Values (1, 3, 7, 31, 'Y la grosura la har· arder el sacerdote en el altar, mas el pecho ser· de AarÛn y de sus hijos.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 32, 'Y dar√©is al sacerdote para ser elevada en ofrenda, la 
-espaldilla derecha de vuestros sacrificios de paz.');
+Values (1, 3, 7, 32, 'Y darÈis al sacerdote para ser elevada en ofrenda, la espaldilla derecha de vuestros sacrificios de paz.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 33, 'El que de los hijos de Aar√≥n ofreciere la sangre de los 
-sacrificios de paz, y la grosura, recibir√° la espaldilla derecha como porci√≥n suya.');
+Values (1, 3, 7, 33, 'El que de los hijos de AarÛn ofreciere la sangre de los sacrificios de paz, y la grosura, recibir· la espaldilla derecha como porciÛn suya.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 34, 'Porque he tomado de los sacrificios de paz de los hijos 
-de Israel el pecho que se mece y la espaldilla elevada en ofrenda, y lo he 
-dado a Aar√≥n el sacerdote y a sus hijos, como estatuto perpetuo para los hijos de Israel.');
+Values (1, 3, 7, 34, 'Porque he tomado de los sacrificios de paz de los hijos de Israel el pecho que se mece y la espaldilla elevada en ofrenda, y lo he dado a AarÛn el sacerdote y a sus hijos, como estatuto perpetuo para los hijos de Israel.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 35, 'Esta es la porci√≥n de Aar√≥n y la porci√≥n de sus hijos, de las ofrendas
-encendidas a Jehov√°, desde el d√≠a que √©l los consagr√≥ para ser sacerdotes de Jehov√°,');
+Values (1, 3, 7, 35, 'Esta es la porciÛn de AarÛn y la porciÛn de sus hijos, de las ofrendas encendidas a Jehov·, desde el dÌa que Èl los consagrÛ para ser sacerdotes de Jehov·,');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 36, 'la cual mand√≥ Jehov√° que les diesen, desde el d√≠a que √©l los ungi√≥ 
-de entre los hijos de Israel, como estatuto perpetuo en sus generaciones.');
+Values (1, 3, 7, 36, 'la cual mandÛ Jehov· que les diesen, desde el dÌa que Èl los ungiÛ de entre los hijos de Israel, como estatuto perpetuo en sus generaciones.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 37, 'Esta es la ley del holocausto, de la ofrenda, del sacrificio por 
-el pecado, del sacrificio por la culpa, de las consagraciones y del sacrificio de paz,');
+Values (1, 3, 7, 37, 'Esta es la ley del holocausto, de la ofrenda, del sacrificio por el pecado, del sacrificio por la culpa, de las consagraciones y del sacrificio de paz,');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 7, 38, 'la cual mand√≥ Jehov√° a Mois√©s en el monte de Sina√≠, el d√≠a que 
-mand√≥ a los hijos de Israel que ofreciesen sus ofrendas a Jehov√°, en el desierto de Sina√≠.');
+Values (1, 3, 7, 38, 'la cual mandÛ Jehov· a MoisÈs en el monte de SinaÌ, el dÌa que mandÛ a los hijos de Israel que ofreciesen sus ofrendas a Jehov·, en el desierto de SinaÌ.');
 
---Libro Lev√≠tico -> Capitulo 8
-
-insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 1, 'Habl√≥ Jehov√° a Mois√©s, diciendo:');
+--Libro LevÌtico -> Capitulo 8
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 2, 'Toma a Aar√≥n y a sus hijos con √©l, y las vestiduras, el aceite de la 
-unci√≥n, el becerro de la expiaci√≥n, los dos carneros, y el canastillo de los panes sin levadura;');
+Values (1, 3, 8, 1, 'HablÛ Jehov· a MoisÈs, diciendo:');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 3, 'y re√∫ne toda la congregaci√≥n a la puerta del tabern√°culo de reuni√≥n.');
+Values (1, 3, 8, 2, 'Toma a AarÛn y a sus hijos con Èl, y las vestiduras, el aceite de la unciÛn, el becerro de la expiaciÛn, los dos carneros, y el canastillo de los panes sin levadura;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 4, 'Hizo, pues, Mois√©s como Jehov√° le mand√≥, y se reuni√≥ la congregaci√≥n a 
-la puerta del tabern√°culo de reuni√≥n.');
+Values (1, 3, 8, 3, 'y re˙ne toda la congregaciÛn a la puerta del tabern·culo de reuniÛn.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 5, 'Y dijo Mois√©s a la congregaci√≥n: Esto es lo que Jehov√° ha mandado hacer.');
+Values (1, 3, 8, 4, 'Hizo, pues, MoisÈs como Jehov· le mandÛ, y se reuniÛ la congregaciÛn a la puerta del tabern·culo de reuniÛn.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 6, 'Entonces Mois√©s hizo acercarse a Aar√≥n y a sus hijos, y los lav√≥ con agua.');
+Values (1, 3, 8, 5, 'Y dijo MoisÈs a la congregaciÛn: Esto es lo que Jehov· ha mandado hacer.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 7, 'Y puso sobre √©l la t√∫nica, y le ci√±√≥ con el cinto; le visti√≥ despu√©s el 
-manto, y puso sobre √©l el efod, y lo ci√±√≥ con el cinto del efod, y lo ajust√≥ con √©l.');
+Values (1, 3, 8, 6, 'Entonces MoisÈs hizo acercarse a AarÛn y a sus hijos, y los lavÛ con agua.');
+
+insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
+Values (1, 3, 8, 7, 'Y puso sobre Èl la t˙nica, y le ciÒÛ con el cinto; le vistiÛ despuÈs el manto, y puso sobre Èl el efod, y lo ciÒÛ con el cinto del efod, y lo ajustÛ con Èl.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
 Values (1, 3, 8, 8, 'Luego le puso encima el pectoral, y puso dentro del mismo los Urim y Tumim.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 9, 'Despu√©s puso la mitra sobre su cabeza, y sobre la mitra, en frente, 
-puso la l√°mina de oro, la diadema santa, como Jehov√° hab√≠a mandado a Mois√©s.');
+Values (1, 3, 8, 9, 'DespuÈs puso la mitra sobre su cabeza, y sobre la mitra, en frente, puso la l·mina de oro, la diadema santa, como Jehov· habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 10, 'Y tom√≥ Mois√©s el aceite de la unci√≥n y ungi√≥ el tabern√°culo y todas las
-cosas que estaban en √©l, y las santific√≥.');
+Values (1, 3, 8, 10, 'Y tomÛ MoisÈs el aceite de la unciÛn y ungiÛ el tabern·culo y todas las cosas que estaban en Èl, y las santificÛ.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 11, 'Y roci√≥ de √©l sobre el altar siete veces, y ungi√≥ el altar y todos 
-sus utensilios, y la fuente y su base, para santificarlos.');
+Values (1, 3, 8, 11, 'Y rociÛ de Èl sobre el altar siete veces, y ungiÛ el altar y todos sus utensilios, y la fuente y su base, para santificarlos.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 12, 'Y derram√≥ del aceite de la unci√≥n sobre la cabeza de Aar√≥n, y lo 
-ungi√≥ para santificarlo.');
+Values (1, 3, 8, 12, 'Y derramÛ del aceite de la unciÛn sobre la cabeza de AarÛn, y lo ungiÛ para santificarlo.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 13, 'Despu√©s Mois√©s hizo acercarse los hijos de Aar√≥n, y les visti√≥ las
-t√∫nicas, les ci√±√≥ con cintos, y les ajust√≥ las tiaras, como Jehov√° lo hab√≠a mandado a Mois√©s.');
+Values (1, 3, 8, 13, 'DespuÈs MoisÈs hizo acercarse los hijos de AarÛn, y les vistiÛ las t˙nicas, les ciÒÛ con cintos, y les ajustÛ las tiaras, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 14, 'Luego hizo traer el becerro de la expiaci√≥n, y Aar√≥n y sus hijos
-pusieron sus manos sobre la cabeza del becerro de la expiaci√≥n,');
+Values (1, 3, 8, 14, 'Luego hizo traer el becerro de la expiaciÛn, y AarÛn y sus hijos pusieron sus manos sobre la cabeza del becerro de la expiaciÛn,');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 15, 'y lo degoll√≥; y Mois√©s tom√≥ la sangre, y puso con su dedo sobre los
-cuernos del altar alrededor, y purific√≥ el altar; y ech√≥ la dem√°s sangre al pie del altar, 
-y lo santific√≥ para reconciliar sobre √©l.');
+Values (1, 3, 8, 15, 'y lo degollÛ; y MoisÈs tomÛ la sangre, y puso con su dedo sobre los cuernos del altar alrededor, y purificÛ el altar; y echÛ la dem·s sangre al pie del altar, y lo santificÛ para reconciliar sobre Èl.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 16, 'Despu√©s tom√≥ toda la grosura que estaba sobre los intestinos, 
-y la grosura del h√≠gado, y los dos ri√±ones, y la grosura de ellos, y lo hizo arder 
-Mois√©s sobre el altar.');
+Values (1, 3, 8, 16, 'DespuÈs tomÛ toda la grosura que estaba sobre los intestinos, y la grosura del hÌgado, y los dos riÒones, y la grosura de ellos, y lo hizo arder 
+MoisÈs sobre el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 17, 'Mas el becerro, su piel, su carne y su esti√©rcol, lo quem√≥ al 
-fuego fuera del campamento, como Jehov√° lo hab√≠a mandado a Mois√©s.');
+Values (1, 3, 8, 17, 'Mas el becerro, su piel, su carne y su estiÈrcol, lo quemÛ al fuego fuera del campamento, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 18, 'Despu√©s hizo que trajeran el carnero del holocausto, y Aar√≥n 
-y sus hijos pusieron sus manos sobre la cabeza del carnero;');
+Values (1, 3, 8, 18, 'DespuÈs hizo que trajeran el carnero del holocausto, y AarÛn y sus hijos pusieron sus manos sobre la cabeza del carnero;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 19, 'y lo degoll√≥; y roci√≥ Mois√©s la sangre sobre el altar alrededor,');
+Values (1, 3, 8, 19, 'y lo degollÛ; y rociÛ MoisÈs la sangre sobre el altar alrededor,');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 20, 'y cort√≥ el carnero en trozos; y Mois√©s hizo arder la cabeza, y 
-los trozos, y la grosura.');
+Values (1, 3, 8, 20, 'y cortÛ el carnero en trozos; y MoisÈs hizo arder la cabeza, y los trozos, y la grosura.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 21, 'Lav√≥ luego con agua los intestinos y las piernas, y quem√≥ 
-Mois√©s todo el carnero sobre el altar; holocausto de olor grato, ofrenda encendida 
-para Jehov√°, como Jehov√° lo hab√≠a mandado a Mois√©s.');
+Values (1, 3, 8, 21, 'LavÛ luego con agua los intestinos y las piernas, y quemÛ MoisÈs todo el carnero sobre el altar; holocausto de olor grato, ofrenda encendida para Jehov·, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 22, 'Despu√©s hizo que trajeran el otro carnero, el carnero de las 
-consagraciones, y Aar√≥n y sus hijos pusieron sus manos sobre la cabeza del carnero.');
+Values (1, 3, 8, 22, 'DespuÈs hizo que trajeran el otro carnero, el carnero de las consagraciones, y AarÛn y sus hijos pusieron sus manos sobre la cabeza del carnero.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 23, 'Y lo degoll√≥; y tom√≥ Mois√©s de la sangre, y la puso sobre el 
-l√≥bulo de la oreja derecha de Aar√≥n, sobre el dedo pulgar de su mano derecha, y sobre 
-el dedo pulgar de su pie derecho.');
+Values (1, 3, 8, 23, 'Y lo degollÛ; y tomÛ MoisÈs de la sangre, y la puso sobre el lÛbulo de la oreja derecha de AarÛn, sobre el dedo pulgar de su mano derecha, y sobre el dedo pulgar de su pie derecho.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 24, 'Hizo acercarse luego los hijos de Aar√≥n, y puso Mois√©s de la 
-sangre sobre el l√≥bulo de sus orejas derechas, sobre los pulgares de sus manos derechas, 
-y sobre los pulgares de sus pies derechos; y roci√≥ Mois√©s la sangre sobre el altar 
-alrededor.');
+Values (1, 3, 8, 24, 'Hizo acercarse luego los hijos de AarÛn, y puso MoisÈs de la sangre sobre el lÛbulo de sus orejas derechas, sobre los pulgares de sus manos derechas, y sobre los pulgares de sus pies derechos; y rociÛ MoisÈs la sangre sobre el altar alrededor.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 25, 'Despu√©s tom√≥ la grosura, la cola, toda la grosura que estaba
-sobre los intestinos, la grosura del h√≠gado, los dos ri√±ones y la grosura de ellos, 
-y la espaldilla derecha.');
+Values (1, 3, 8, 25, 'DespuÈs tomÛ la grosura, la cola, toda la grosura que estaba sobre los intestinos, la grosura del hÌgado, los dos riÒones y la grosura de ellos, y la espaldilla derecha.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 26, 'Y del canastillo de los panes sin levadura, que estaba delante
-de Jehov√°, tom√≥ una torta sin levadura, y una torta de pan de aceite, y una hojaldre, 
-y lo puso con la grosura y con la espaldilla derecha.');
+Values (1, 3, 8, 26, 'Y del canastillo de los panes sin levadura, que estaba delante de Jehov·, tomÛ una torta sin levadura, y una torta de pan de aceite, y una hojaldre, y lo puso con la grosura y con la espaldilla derecha.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 27, 'Y lo puso todo en las manos de Aar√≥n, y en las manos de sus 
-hijos, e hizo mecerlo como ofrenda mecida delante de Jehov√°.');
+Values (1, 3, 8, 27, 'Y lo puso todo en las manos de AarÛn, y en las manos de sus hijos, e hizo mecerlo como ofrenda mecida delante de Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 28, 'Despu√©s tom√≥ aquellas cosas Mois√©s de las manos de ellos,
-y las hizo arder en el altar sobre el holocausto; eran las consagraciones en olor 
-grato, ofrenda encendida a Jehov√°.');
+Values (1, 3, 8, 28, 'DespuÈs tomÛ aquellas cosas MoisÈs de las manos de ellos, y las hizo arder en el altar sobre el holocausto; eran las consagraciones en olor grato, ofrenda encendida a Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 29, 'Y tom√≥ Mois√©s el pecho, y lo meci√≥, ofrenda mecida delante 
-de Jehov√°; del carnero de las consagraciones aquella fue la parte de Mois√©s, 
-como Jehov√° lo hab√≠a mandado a Mois√©s.');
+Values (1, 3, 8, 29, 'Y tomÛ MoisÈs el pecho, y lo meciÛ, ofrenda mecida delante de Jehov·; del carnero de las consagraciones aquella fue la parte de MoisÈs, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 30, 'Luego tom√≥ Mois√©s del aceite de la unci√≥n, y de la sangre 
-que estaba sobre el altar, y roci√≥ sobre Aar√≥n, y sobre sus vestiduras, sobre 
-sus hijos, y sobre las vestiduras de sus hijos con √©l; y santific√≥ a Aar√≥n y 
-sus vestiduras, y a sus hijos y las vestiduras de sus hijos con √©l.');
+Values (1, 3, 8, 30, 'Luego tomÛ MoisÈs del aceite de la unciÛn, y de la sangre que estaba sobre el altar, y rociÛ sobre AarÛn, y sobre sus vestiduras, sobre sus hijos, y sobre las vestiduras de sus hijos con Èl; y santificÛ a AarÛn y sus vestiduras, y a sus hijos y las vestiduras de sus hijos con Èl.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 31, 'Y dijo Mois√©s a Aar√≥n y a sus hijos: Hervid la carne a 
-la puerta del tabern√°culo de reuni√≥n; y comedla all√≠ con el pan que est√° en 
-el canastillo de las consagraciones, seg√∫n yo he mandado, diciendo: Aar√≥n y 
-sus hijos la comer√°n.');
+Values (1, 3, 8, 31, 'Y dijo MoisÈs a AarÛn y a sus hijos: Hervid la carne a la puerta del tabern·culo de reuniÛn; y comedla allÌ con el pan que est· en el canastillo de las consagraciones, seg˙n yo he mandado, diciendo: AarÛn y sus hijos la comer·n.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 32, 'Y lo que sobre de la carne y del pan, lo quemar√©is al fuego.');
+Values (1, 3, 8, 32, 'Y lo que sobre de la carne y del pan, lo quemarÈis al fuego.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 33, 'De la puerta del tabern√°culo de reuni√≥n no saldr√©is en siete 
-d√≠as, hasta el d√≠a que se cumplan los d√≠as de vuestras consagraciones; porque por 
-siete d√≠as ser√©is consagrados.');
+Values (1, 3, 8, 33, 'De la puerta del tabern·culo de reuniÛn no saldrÈis en siete dÌas, hasta el dÌa que se cumplan los dÌas de vuestras consagraciones; porque por siete dÌas serÈis consagrados.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 34, 'De la manera que hoy se ha hecho, mand√≥ hacer Jehov√° para 
-expiaros.');
+Values (1, 3, 8, 34, 'De la manera que hoy se ha hecho, mandÛ hacer Jehov· para expiaros.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 35, 'A la puerta, pues, del tabern√°culo de reuni√≥n estar√©is d√≠a 
-y noche por siete d√≠as, y guardar√©is la ordenanza delante de Jehov√°, para que 
-no mur√°is; porque as√≠ me ha sido mandado.');
+Values (1, 3, 8, 35, 'A la puerta, pues, del tabern·culo de reuniÛn estarÈis dÌa y noche por siete dÌas, y guardarÈis la ordenanza delante de Jehov·, para que no mur·is; porque asÌ me ha sido mandado.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 8, 36, 'Y Aar√≥n y sus hijos hicieron todas las cosas que mand√≥ 
-Jehov√° por medio de Mois√©s.');
+Values (1, 3, 8, 36, 'Y AarÛn y sus hijos hicieron todas las cosas que mandÛ Jehov· por medio de MoisÈs.');
 
---Libro Lev√≠tico -> Capitulo 9 
-
-insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 1, 'En el d√≠a octavo, Mois√©s llam√≥ a Aar√≥n y a sus hijos, 
-y a los ancianos de Israel;');
+--Libro LevÌtico -> Capitulo 9 
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 2, 'y dijo a Aar√≥n: Toma de la vacada un becerro para expiaci√≥n,
-y un carnero para holocausto, sin defecto, y ofr√©celos delante de Jehov√°.');
+Values (1, 3, 9, 1, 'En el dÌa octavo, MoisÈs llamÛ a AarÛn y a sus hijos, y a los ancianos de Israel;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 3, 'Y a los hijos de Israel hablar√°s diciendo: Tomad un macho 
-cabr√≠o para expiaci√≥n, y un becerro y un cordero de un a√±o, sin defecto, para 
-holocausto.');
+Values (1, 3, 9, 2, 'y dijo a AarÛn: Toma de la vacada un becerro para expiaciÛn, y un carnero para holocausto, sin defecto, y ofrÈcelos delante de Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 4, 'Asimismo un buey y un carnero para sacrificio de paz, 
-que inmol√©is delante de Jehov√°, y una ofrenda amasada con aceite; porque 
-Jehov√° se aparecer√° hoy a vosotros.');
+Values (1, 3, 9, 3, 'Y a los hijos de Israel hablar·s diciendo: Tomad un macho cabrÌo para expiaciÛn, y un becerro y un cordero de un aÒo, sin defecto, para holocausto.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 5, 'Y llevaron lo que mand√≥ Mois√©s delante del tabern√°culo 
-de reuni√≥n, y vino toda la congregaci√≥n y se puso delante de Jehov√°.');
+Values (1, 3, 9, 4, 'Asimismo un buey y un carnero para sacrificio de paz, que inmolÈis delante de Jehov·, y una ofrenda amasada con aceite; porque Jehov· se aparecer· hoy a vosotros.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 6, 'Entonces Mois√©s dijo: Esto es lo que mand√≥ Jehov√°; hacedlo,
-y la gloria de Jehov√° se os aparecer√°.');
+Values (1, 3, 9, 5, 'Y llevaron lo que mandÛ MoisÈs delante del tabern·culo de reuniÛn, y vino toda la congregaciÛn y se puso delante de Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 7, 'Y dijo Mois√©s a Aar√≥n: Ac√©rcate al altar, y haz tu 
-expiaci√≥n y tu holocausto, y haz la reconciliaci√≥n por ti y por el pueblo; 
-haz tambi√©n la ofrenda del pueblo, y haz la reconciliaci√≥n por ellos, como 
-ha mandado Jehov√°.');
+Values (1, 3, 9, 6, 'Entonces MoisÈs dijo: Esto es lo que mandÛ Jehov·; hacedlo, y la gloria de Jehov· se os aparecer·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 8, 'Entonces se acerc√≥ Aar√≥n al altar y degoll√≥ el becerro 
-de la expiaci√≥n que era por √©l.');
+Values (1, 3, 9, 7, 'Y dijo MoisÈs a AarÛn: AcÈrcate al altar, y haz tu expiaciÛn y tu holocausto, y haz la reconciliaciÛn por ti y por el pueblo; haz tambiÈn la ofrenda del pueblo, y haz la reconciliaciÛn por ellos, como ha mandado Jehov·.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 9, 'Y los hijos de Aar√≥n le trajeron la sangre; y √©l moj√≥ 
-su dedo en la sangre, y puso de ella sobre los cuernos del altar, y derram√≥ 
-el resto de la sangre al pie del altar.');
+Values (1, 3, 9, 8, 'Entonces se acercÛ AarÛn al altar y degollÛ el becerro de la expiaciÛn que era por Èl.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 10, 'E hizo arder sobre el altar la grosura con los ri√±ones 
-y la grosura del h√≠gado de la expiaci√≥n, como Jehov√° lo hab√≠a mandado a Mois√©s.');
+Values (1, 3, 9, 9, 'Y los hijos de AarÛn le trajeron la sangre; y Èl mojÛ su dedo en la sangre, y puso de ella sobre los cuernos del altar, y derramÛ el resto de la sangre al pie del altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 11, 'Mas la carne y la piel las quem√≥ al fuego fuera del campamento.');
+Values (1, 3, 9, 10, 'E hizo arder sobre el altar la grosura con los riÒones y la grosura del hÌgado de la expiaciÛn, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 12, 'Degoll√≥ asimismo el holocausto, y los hijos de Aar√≥n le presentaron
-la sangre, la cual roci√≥ √©l alrededor sobre el altar.');
+Values (1, 3, 9, 11, 'Mas la carne y la piel las quemÛ al fuego fuera del campamento.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 13, 'Despu√©s le presentaron el holocausto pieza por pieza, y la cabeza;
-y lo hizo quemar sobre el altar.');
+Values (1, 3, 9, 12, 'DegollÛ asimismo el holocausto, y los hijos de AarÛn le presentaron la sangre, la cual rociÛ Èl alrededor sobre el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 14, 'Luego lav√≥ los intestinos y las piernas, y los quem√≥ sobre el
-holocausto en el altar.');
+Values (1, 3, 9, 13, 'DespuÈs le presentaron el holocausto pieza por pieza, y la cabeza; y lo hizo quemar sobre el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 15, 'Ofreci√≥ tambi√©n la ofrenda del pueblo, y tom√≥ el macho cabr√≠o 
-que era para la expiaci√≥n del pueblo, y lo degoll√≥, y lo ofreci√≥ por el pecado como 
-el primero.');
+Values (1, 3, 9, 14, 'Luego lavÛ los intestinos y las piernas, y los quemÛ sobre el holocausto en el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 16, 'Y ofreci√≥ el holocausto, e hizo seg√∫n el rito.');
+Values (1, 3, 9, 15, 'OfreciÛ tambiÈn la ofrenda del pueblo, y tomÛ el macho cabrÌo que era para la expiaciÛn del pueblo, y lo degollÛ, y lo ofreciÛ por el pecado como el primero.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 17, 'Ofreci√≥ asimismo la ofrenda, y llen√≥ de ella su mano, y la hizo
-quemar sobre el altar, adem√°s del holocausto de la ma√±ana.');
+Values (1, 3, 9, 16, 'Y ofreciÛ el holocausto, e hizo seg˙n el rito.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 18, 'Degoll√≥ tambi√©n el buey y el carnero en sacrificio de paz, 
-que era del pueblo; y los hijos de Aar√≥n le presentaron la sangre, la cual roci√≥ 
-√©l sobre el altar alrededor;');
+Values (1, 3, 9, 17, 'OfreciÛ asimismo la ofrenda, y llenÛ de ella su mano, y la hizo quemar sobre el altar, adem·s del holocausto de la maÒana.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 19, 'y las grosuras del buey y del carnero, la cola, la grosura
-que cubre los intestinos, los ri√±ones, y la grosura del h√≠gado;');
+Values (1, 3, 9, 18, 'DegollÛ tambiÈn el buey y el carnero en sacrificio de paz, que era del pueblo; y los hijos de AarÛn le presentaron la sangre, la cual rociÛ Èl sobre el altar alrededor;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 20, 'y pusieron las grosuras sobre los pechos, y √©l las quem√≥ 
-sobre el altar.');
+Values (1, 3, 9, 19, 'y las grosuras del buey y del carnero, la cola, la grosura que cubre los intestinos, los riÒones, y la grosura del hÌgado;');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 21, 'Pero los pechos, con la espaldilla derecha, los meci√≥ 
-Aar√≥n como ofrenda mecida delante de Jehov√°, como Jehov√° lo hab√≠a mandado 
-a Mois√©s.');
+Values (1, 3, 9, 20, 'y pusieron las grosuras sobre los pechos, y Èl las quemÛ sobre el altar.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 22, 'Despu√©s alz√≥ Aar√≥n sus manos hacia el pueblo y lo bendijo;
-y despu√©s de hacer la expiaci√≥n, el holocausto y el sacrificio de paz, descendi√≥.');
+Values (1, 3, 9, 21, 'Pero los pechos, con la espaldilla derecha, los meciÛ AarÛn como ofrenda mecida delante de Jehov·, como Jehov· lo habÌa mandado a MoisÈs.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 23, 'Y entraron Mois√©s y Aar√≥n en el tabern√°culo de reuni√≥n, y 
-salieron y bendijeron al pueblo; y la gloria de Jehov√° se apareci√≥ a todo el pueblo.');
+Values (1, 3, 9, 22, 'DespuÈs alzÛ AarÛn sus manos hacia el pueblo y lo bendijo; y despuÈs de hacer la expiaciÛn, el holocausto y el sacrificio de paz, descendiÛ.');
 
 insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
-Values (1, 3, 9, 24, 'Y sali√≥ fuego de delante de Jehov√°, y consumi√≥ el holocausto 
-con las grosuras sobre el altar; y vi√©ndolo todo el pueblo, alabaron, y se postraron 
-sobre sus rostros.');
+Values (1, 3, 9, 23, 'Y entraron MoisÈs y AarÛn en el tabern·culo de reuniÛn, y salieron y bendijeron al pueblo; y la gloria de Jehov· se apareciÛ a todo el pueblo.');
+
+insert into Versiculos (Id_Version, Id_Libro, NumeroCap, NumeroVers, Texto)
+Values (1, 3, 9, 24, 'Y saliÛ fuego de delante de Jehov·, y consumiÛ el holocausto con las grosuras sobre el altar; y viÈndolo todo el pueblo, alabaron, y se postraron sobre sus rostros.');
 
 /*
 Script para la inserciÛn de datos de la Biblia
