@@ -30,16 +30,19 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormUsuario));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.B_U_CerrarSesion = new CustomControls.RJControls.RJButton();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.B_U_CerrarSesion = new CustomControls.RJControls.RJButton();
             this.B_U_Baja = new CustomControls.RJControls.RJButton();
             this.panel2 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.B_U_GuardarCambios = new CustomControls.RJControls.RJButton();
-            this.B_U_EditarInfo = new CustomControls.RJControls.RJButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.B_U_EditarInfo = new CustomControls.RJControls.RJButton();
+            this.B_U_GuardarCambios = new CustomControls.RJControls.RJButton();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -64,7 +67,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.TB_U_Nombre = new MAD.RJTextBoxcs();
             this.panel1.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -79,81 +84,100 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.panel1.Controls.Add(this.tableLayoutPanel1);
+            this.panel1.Controls.Add(this.pictureBox4);
+            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1247, 76);
             this.panel1.TabIndex = 0;
             // 
-            // tableLayoutPanel1
+            // pictureBox4
             // 
-            this.tableLayoutPanel1.ColumnCount = 3;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel1.Controls.Add(this.B_U_CerrarSesion, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.label1, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.B_U_Baja, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1247, 76);
-            this.tableLayoutPanel1.TabIndex = 0;
+            this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox4.Image = global::MAD.Properties.Resources.MyTomillo;
+            this.pictureBox4.Location = new System.Drawing.Point(17, 20);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(48, 38);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
             // 
-            // B_U_CerrarSesion
+            // pictureBox3
             // 
-            this.B_U_CerrarSesion.BackColor = System.Drawing.Color.Transparent;
-            this.B_U_CerrarSesion.BackgroundColor = System.Drawing.Color.Transparent;
-            this.B_U_CerrarSesion.BorderColor = System.Drawing.Color.MediumSlateBlue;
-            this.B_U_CerrarSesion.BorderRadius = 20;
-            this.B_U_CerrarSesion.BorderSize = 4;
-            this.B_U_CerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.B_U_CerrarSesion.FlatAppearance.BorderSize = 0;
-            this.B_U_CerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.B_U_CerrarSesion.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_U_CerrarSesion.ForeColor = System.Drawing.Color.MediumSlateBlue;
-            this.B_U_CerrarSesion.Location = new System.Drawing.Point(1000, 12);
-            this.B_U_CerrarSesion.Name = "B_U_CerrarSesion";
-            this.B_U_CerrarSesion.Size = new System.Drawing.Size(244, 61);
-            this.B_U_CerrarSesion.TabIndex = 4;
-            this.B_U_CerrarSesion.Text = "Cerrar Sesión";
-            this.B_U_CerrarSesion.TextColor = System.Drawing.Color.MediumSlateBlue;
-            this.B_U_CerrarSesion.UseVisualStyleBackColor = false;
-            this.B_U_CerrarSesion.Click += new System.EventHandler(this.B_U_CerrarSesion_Click);
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox3.Image = global::MAD.Properties.Resources.minimizar;
+            this.pictureBox3.Location = new System.Drawing.Point(1171, 25);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.pictureBox2.Image = global::MAD.Properties.Resources.boton_cancelar;
+            this.pictureBox2.Location = new System.Drawing.Point(1211, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Poor Richard", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(252, 0);
+            this.label1.Location = new System.Drawing.Point(574, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(742, 76);
+            this.label1.Size = new System.Drawing.Size(134, 47);
             this.label1.TabIndex = 2;
             this.label1.Text = "Tomillo";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // B_U_CerrarSesion
+            // 
+            this.B_U_CerrarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(80)))), ((int)(((byte)(242)))));
+            this.B_U_CerrarSesion.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(80)))), ((int)(((byte)(242)))));
+            this.B_U_CerrarSesion.BorderColor = System.Drawing.Color.Transparent;
+            this.B_U_CerrarSesion.BorderRadius = 15;
+            this.B_U_CerrarSesion.BorderSize = 0;
+            this.B_U_CerrarSesion.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.B_U_CerrarSesion.FlatAppearance.BorderSize = 0;
+            this.B_U_CerrarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B_U_CerrarSesion.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_U_CerrarSesion.ForeColor = System.Drawing.Color.White;
+            this.B_U_CerrarSesion.Location = new System.Drawing.Point(3, 468);
+            this.B_U_CerrarSesion.Name = "B_U_CerrarSesion";
+            this.B_U_CerrarSesion.Size = new System.Drawing.Size(424, 35);
+            this.B_U_CerrarSesion.TabIndex = 4;
+            this.B_U_CerrarSesion.Text = "Cerrar Sesión";
+            this.B_U_CerrarSesion.TextColor = System.Drawing.Color.White;
+            this.B_U_CerrarSesion.UseVisualStyleBackColor = false;
+            this.B_U_CerrarSesion.Click += new System.EventHandler(this.B_U_CerrarSesion_Click);
             // 
             // B_U_Baja
             // 
             this.B_U_Baja.BackColor = System.Drawing.Color.IndianRed;
             this.B_U_Baja.BackgroundColor = System.Drawing.Color.IndianRed;
             this.B_U_Baja.BorderColor = System.Drawing.Color.IndianRed;
-            this.B_U_Baja.BorderRadius = 20;
+            this.B_U_Baja.BorderRadius = 15;
             this.B_U_Baja.BorderSize = 0;
             this.B_U_Baja.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.B_U_Baja.FlatAppearance.BorderSize = 0;
             this.B_U_Baja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.B_U_Baja.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_U_Baja.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_U_Baja.ForeColor = System.Drawing.Color.White;
-            this.B_U_Baja.Location = new System.Drawing.Point(3, 25);
+            this.B_U_Baja.Location = new System.Drawing.Point(3, 511);
             this.B_U_Baja.Name = "B_U_Baja";
-            this.B_U_Baja.Size = new System.Drawing.Size(243, 48);
+            this.B_U_Baja.Size = new System.Drawing.Size(424, 35);
             this.B_U_Baja.TabIndex = 3;
             this.B_U_Baja.Text = "Darse de baja";
             this.B_U_Baja.TextColor = System.Drawing.Color.White;
@@ -174,41 +198,33 @@
             // 
             this.tableLayoutPanel3.ColumnCount = 1;
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.B_U_GuardarCambios, 0, 3);
-            this.tableLayoutPanel3.Controls.Add(this.B_U_EditarInfo, 0, 2);
-            this.tableLayoutPanel3.Controls.Add(this.pictureBox1, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.pictureBox1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.B_U_Baja, 0, 4);
+            this.tableLayoutPanel3.Controls.Add(this.B_U_EditarInfo, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.B_U_GuardarCambios, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.B_U_CerrarSesion, 0, 3);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel3.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 5;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 61.20219F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.74317F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 8.925319F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.2969F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.650273F));
             this.tableLayoutPanel3.Size = new System.Drawing.Size(430, 549);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // B_U_GuardarCambios
+            // pictureBox1
             // 
-            this.B_U_GuardarCambios.BackColor = System.Drawing.Color.Transparent;
-            this.B_U_GuardarCambios.BackgroundColor = System.Drawing.Color.Transparent;
-            this.B_U_GuardarCambios.BorderColor = System.Drawing.Color.PowderBlue;
-            this.B_U_GuardarCambios.BorderRadius = 20;
-            this.B_U_GuardarCambios.BorderSize = 3;
-            this.B_U_GuardarCambios.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.B_U_GuardarCambios.FlatAppearance.BorderSize = 0;
-            this.B_U_GuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.B_U_GuardarCambios.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.B_U_GuardarCambios.ForeColor = System.Drawing.Color.PowderBlue;
-            this.B_U_GuardarCambios.Location = new System.Drawing.Point(3, 468);
-            this.B_U_GuardarCambios.Name = "B_U_GuardarCambios";
-            this.B_U_GuardarCambios.Size = new System.Drawing.Size(424, 49);
-            this.B_U_GuardarCambios.TabIndex = 7;
-            this.B_U_GuardarCambios.Text = "Guardar Cambios";
-            this.B_U_GuardarCambios.TextColor = System.Drawing.Color.PowderBlue;
-            this.B_U_GuardarCambios.UseVisualStyleBackColor = false;
-            this.B_U_GuardarCambios.Click += new System.EventHandler(this.B_U_GuardarCambios_Click);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(424, 330);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // B_U_EditarInfo
             // 
@@ -222,35 +238,55 @@
             this.B_U_EditarInfo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_U_EditarInfo.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_U_EditarInfo.ForeColor = System.Drawing.Color.PowderBlue;
-            this.B_U_EditarInfo.Location = new System.Drawing.Point(3, 387);
+            this.B_U_EditarInfo.Location = new System.Drawing.Point(3, 341);
             this.B_U_EditarInfo.Name = "B_U_EditarInfo";
-            this.B_U_EditarInfo.Size = new System.Drawing.Size(424, 48);
+            this.B_U_EditarInfo.Size = new System.Drawing.Size(424, 40);
             this.B_U_EditarInfo.TabIndex = 5;
             this.B_U_EditarInfo.Text = "Editar Información";
             this.B_U_EditarInfo.TextColor = System.Drawing.Color.PowderBlue;
             this.B_U_EditarInfo.UseVisualStyleBackColor = false;
             this.B_U_EditarInfo.Click += new System.EventHandler(this.B_U_EditarInfo_Click);
             // 
-            // pictureBox1
+            // B_U_GuardarCambios
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(424, 323);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.B_U_GuardarCambios.BackColor = System.Drawing.Color.Transparent;
+            this.B_U_GuardarCambios.BackgroundColor = System.Drawing.Color.Transparent;
+            this.B_U_GuardarCambios.BorderColor = System.Drawing.Color.PowderBlue;
+            this.B_U_GuardarCambios.BorderRadius = 20;
+            this.B_U_GuardarCambios.BorderSize = 3;
+            this.B_U_GuardarCambios.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.B_U_GuardarCambios.FlatAppearance.BorderSize = 0;
+            this.B_U_GuardarCambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.B_U_GuardarCambios.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_U_GuardarCambios.ForeColor = System.Drawing.Color.PowderBlue;
+            this.B_U_GuardarCambios.Location = new System.Drawing.Point(3, 390);
+            this.B_U_GuardarCambios.Name = "B_U_GuardarCambios";
+            this.B_U_GuardarCambios.Size = new System.Drawing.Size(424, 40);
+            this.B_U_GuardarCambios.TabIndex = 7;
+            this.B_U_GuardarCambios.Text = "Guardar Cambios";
+            this.B_U_GuardarCambios.TextColor = System.Drawing.Color.PowderBlue;
+            this.B_U_GuardarCambios.UseVisualStyleBackColor = false;
+            this.B_U_GuardarCambios.Click += new System.EventHandler(this.B_U_GuardarCambios_Click);
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(67)))), ((int)(((byte)(115)))));
+            this.panel3.Controls.Add(this.panel5);
             this.panel3.Controls.Add(this.tableLayoutPanel2);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(0, 76);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1247, 555);
+            this.panel3.Size = new System.Drawing.Size(1247, 605);
             this.panel3.TabIndex = 2;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(0, 580);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1247, 25);
+            this.panel5.TabIndex = 1;
             // 
             // tableLayoutPanel2
             // 
@@ -261,8 +297,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel2.Controls.Add(this.panel2, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.panel4, 2, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 6);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
@@ -281,6 +316,7 @@
             // 
             // tableLayoutPanel4
             // 
+            this.tableLayoutPanel4.BackgroundImage = global::MAD.Properties.Resources.Background2;
             this.tableLayoutPanel4.ColumnCount = 2;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60F));
@@ -371,14 +407,14 @@
             // 
             // TB_U_Pregunta
             // 
-            this.TB_U_Pregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
-            this.TB_U_Pregunta.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TB_U_Pregunta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.TB_U_Pregunta.BorderColor = System.Drawing.Color.White;
             this.TB_U_Pregunta.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_U_Pregunta.BorderSize = 5;
             this.TB_U_Pregunta.Dock = System.Windows.Forms.DockStyle.Left;
             this.TB_U_Pregunta.Enabled = false;
             this.TB_U_Pregunta.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_U_Pregunta.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.TB_U_Pregunta.ForeColor = System.Drawing.Color.White;
             this.TB_U_Pregunta.Location = new System.Drawing.Point(275, 409);
             this.TB_U_Pregunta.Margin = new System.Windows.Forms.Padding(4);
             this.TB_U_Pregunta.Multiline = false;
@@ -392,14 +428,14 @@
             // 
             // TB_U_Correo
             // 
-            this.TB_U_Correo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
-            this.TB_U_Correo.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TB_U_Correo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.TB_U_Correo.BorderColor = System.Drawing.Color.White;
             this.TB_U_Correo.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_U_Correo.BorderSize = 5;
             this.TB_U_Correo.Dock = System.Windows.Forms.DockStyle.Left;
             this.TB_U_Correo.Enabled = false;
             this.TB_U_Correo.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_U_Correo.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.TB_U_Correo.ForeColor = System.Drawing.Color.White;
             this.TB_U_Correo.Location = new System.Drawing.Point(275, 283);
             this.TB_U_Correo.Margin = new System.Windows.Forms.Padding(4);
             this.TB_U_Correo.Multiline = false;
@@ -414,6 +450,7 @@
             // tableLayoutPanel6
             // 
             this.tableLayoutPanel6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel6.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel6.ColumnCount = 2;
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -432,12 +469,13 @@
             // RB_U_Hombre
             // 
             this.RB_U_Hombre.AutoSize = true;
+            this.RB_U_Hombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
             this.RB_U_Hombre.Checked = true;
-            this.RB_U_Hombre.CheckedColor = System.Drawing.Color.DarkCyan;
+            this.RB_U_Hombre.CheckedColor = System.Drawing.Color.White;
             this.RB_U_Hombre.Dock = System.Windows.Forms.DockStyle.Right;
             this.RB_U_Hombre.Enabled = false;
             this.RB_U_Hombre.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RB_U_Hombre.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.RB_U_Hombre.ForeColor = System.Drawing.Color.White;
             this.RB_U_Hombre.Location = new System.Drawing.Point(83, 3);
             this.RB_U_Hombre.MinimumSize = new System.Drawing.Size(0, 21);
             this.RB_U_Hombre.Name = "RB_U_Hombre";
@@ -446,17 +484,18 @@
             this.RB_U_Hombre.TabIndex = 2;
             this.RB_U_Hombre.TabStop = true;
             this.RB_U_Hombre.Text = "Hombre";
-            this.RB_U_Hombre.UnCheckedColor = System.Drawing.Color.White;
-            this.RB_U_Hombre.UseVisualStyleBackColor = true;
+            this.RB_U_Hombre.UnCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.RB_U_Hombre.UseVisualStyleBackColor = false;
             // 
             // RB_U_Mujer
             // 
             this.RB_U_Mujer.AutoSize = true;
-            this.RB_U_Mujer.CheckedColor = System.Drawing.Color.DarkCyan;
+            this.RB_U_Mujer.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.RB_U_Mujer.CheckedColor = System.Drawing.Color.White;
             this.RB_U_Mujer.Dock = System.Windows.Forms.DockStyle.Left;
             this.RB_U_Mujer.Enabled = false;
             this.RB_U_Mujer.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RB_U_Mujer.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.RB_U_Mujer.ForeColor = System.Drawing.Color.White;
             this.RB_U_Mujer.Location = new System.Drawing.Point(207, 3);
             this.RB_U_Mujer.MinimumSize = new System.Drawing.Size(0, 21);
             this.RB_U_Mujer.Name = "RB_U_Mujer";
@@ -464,8 +503,8 @@
             this.RB_U_Mujer.Size = new System.Drawing.Size(99, 34);
             this.RB_U_Mujer.TabIndex = 1;
             this.RB_U_Mujer.Text = "Mujer";
-            this.RB_U_Mujer.UnCheckedColor = System.Drawing.Color.White;
-            this.RB_U_Mujer.UseVisualStyleBackColor = true;
+            this.RB_U_Mujer.UnCheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.RB_U_Mujer.UseVisualStyleBackColor = false;
             // 
             // DTP_U_Nacimiento
             // 
@@ -479,13 +518,14 @@
             this.DTP_U_Nacimiento.MinimumSize = new System.Drawing.Size(4, 35);
             this.DTP_U_Nacimiento.Name = "DTP_U_Nacimiento";
             this.DTP_U_Nacimiento.Size = new System.Drawing.Size(402, 35);
-            this.DTP_U_Nacimiento.SkinColor = System.Drawing.Color.SteelBlue;
+            this.DTP_U_Nacimiento.SkinColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
             this.DTP_U_Nacimiento.TabIndex = 37;
             this.DTP_U_Nacimiento.TextColor = System.Drawing.Color.White;
             // 
             // tableLayoutPanel5
             // 
             this.tableLayoutPanel5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel5.BackColor = System.Drawing.Color.Transparent;
             this.tableLayoutPanel5.ColumnCount = 2;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -503,13 +543,13 @@
             // TB_U_MApellido
             // 
             this.TB_U_MApellido.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TB_U_MApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
-            this.TB_U_MApellido.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TB_U_MApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.TB_U_MApellido.BorderColor = System.Drawing.Color.White;
             this.TB_U_MApellido.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_U_MApellido.BorderSize = 5;
             this.TB_U_MApellido.Enabled = false;
             this.TB_U_MApellido.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_U_MApellido.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.TB_U_MApellido.ForeColor = System.Drawing.Color.White;
             this.TB_U_MApellido.Location = new System.Drawing.Point(208, 4);
             this.TB_U_MApellido.Margin = new System.Windows.Forms.Padding(4);
             this.TB_U_MApellido.Multiline = false;
@@ -524,13 +564,13 @@
             // TB_U_PApellido
             // 
             this.TB_U_PApellido.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TB_U_PApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
-            this.TB_U_PApellido.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TB_U_PApellido.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.TB_U_PApellido.BorderColor = System.Drawing.Color.White;
             this.TB_U_PApellido.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_U_PApellido.BorderSize = 5;
             this.TB_U_PApellido.Enabled = false;
             this.TB_U_PApellido.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_U_PApellido.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.TB_U_PApellido.ForeColor = System.Drawing.Color.White;
             this.TB_U_PApellido.Location = new System.Drawing.Point(4, 4);
             this.TB_U_PApellido.Margin = new System.Windows.Forms.Padding(4);
             this.TB_U_PApellido.Multiline = false;
@@ -548,7 +588,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Dock = System.Windows.Forms.DockStyle.Right;
             this.label9.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(150, 468);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(118, 55);
@@ -562,7 +602,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Dock = System.Windows.Forms.DockStyle.Right;
             this.label8.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(124, 405);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(144, 58);
@@ -573,9 +613,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Dock = System.Windows.Forms.DockStyle.Right;
             this.label3.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(138, 342);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 58);
@@ -589,7 +630,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Dock = System.Windows.Forms.DockStyle.Right;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(74, 279);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(194, 58);
@@ -603,7 +644,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Dock = System.Windows.Forms.DockStyle.Right;
             this.label5.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(181, 205);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(87, 58);
@@ -617,7 +658,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Dock = System.Windows.Forms.DockStyle.Right;
             this.label4.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(50, 144);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(218, 56);
@@ -631,7 +672,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Dock = System.Windows.Forms.DockStyle.Right;
             this.label7.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(164, 79);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(104, 60);
@@ -645,7 +686,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Dock = System.Windows.Forms.DockStyle.Right;
             this.label6.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(154, 16);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(114, 58);
@@ -655,14 +696,14 @@
             // 
             // TB_U_Nombre
             // 
-            this.TB_U_Nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
-            this.TB_U_Nombre.BorderColor = System.Drawing.Color.SteelBlue;
+            this.TB_U_Nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(51)))), ((int)(((byte)(102)))));
+            this.TB_U_Nombre.BorderColor = System.Drawing.Color.White;
             this.TB_U_Nombre.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_U_Nombre.BorderSize = 5;
             this.TB_U_Nombre.Dock = System.Windows.Forms.DockStyle.Left;
             this.TB_U_Nombre.Enabled = false;
             this.TB_U_Nombre.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_U_Nombre.ForeColor = System.Drawing.Color.DimGray;
+            this.TB_U_Nombre.ForeColor = System.Drawing.Color.White;
             this.TB_U_Nombre.Location = new System.Drawing.Point(275, 20);
             this.TB_U_Nombre.Margin = new System.Windows.Forms.Padding(4);
             this.TB_U_Nombre.Multiline = false;
@@ -678,15 +719,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1247, 631);
+            this.ClientSize = new System.Drawing.Size(1247, 681);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormUsuario";
             this.Text = "Tu usuario";
             this.Load += new System.EventHandler(this.FormUsuario_Load);
             this.panel1.ResumeLayout(false);
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -705,7 +749,6 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label1;
         private CustomControls.RJControls.RJButton B_U_CerrarSesion;
         private CustomControls.RJControls.RJButton B_U_Baja;
@@ -738,5 +781,9 @@
         private RJTextBoxcs TB_U_Pregunta;
         private CustomControls.RJControls.RJButton B_U_CambioContra;
         private CustomControls.RJControls.RJButton B_U_CambioResp;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
