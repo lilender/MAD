@@ -39,6 +39,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.BTN_MinimizaNewPass = new System.Windows.Forms.PictureBox();
             this.BTN_closenewpass = new System.Windows.Forms.PictureBox();
@@ -48,6 +50,7 @@
             this.tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_MinimizaNewPass)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_closenewpass)).BeginInit();
@@ -129,7 +132,7 @@
             this.TB_ContraActual.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_ContraActual.BorderSize = 5;
             this.TB_ContraActual.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_ContraActual.ForeColor = System.Drawing.Color.DimGray;
+            this.TB_ContraActual.ForeColor = System.Drawing.Color.White;
             this.TB_ContraActual.Location = new System.Drawing.Point(53, 95);
             this.TB_ContraActual.Margin = new System.Windows.Forms.Padding(4);
             this.TB_ContraActual.Multiline = false;
@@ -163,7 +166,7 @@
             this.TB_ContraNueva.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_ContraNueva.BorderSize = 5;
             this.TB_ContraNueva.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_ContraNueva.ForeColor = System.Drawing.Color.DimGray;
+            this.TB_ContraNueva.ForeColor = System.Drawing.Color.White;
             this.TB_ContraNueva.Location = new System.Drawing.Point(53, 254);
             this.TB_ContraNueva.Margin = new System.Windows.Forms.Padding(4);
             this.TB_ContraNueva.Multiline = false;
@@ -224,6 +227,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.BTN_MinimizaNewPass);
             this.panel2.Controls.Add(this.BTN_closenewpass);
@@ -232,6 +237,27 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(455, 50);
             this.panel2.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 10F);
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(67, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(184, 21);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Cambiar Contraseña";
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::MAD.Properties.Resources.MyTomillo;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 38);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
@@ -297,6 +323,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_MinimizaNewPass)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BTN_closenewpass)).EndInit();
@@ -322,5 +349,7 @@
         private System.Windows.Forms.PictureBox BTN_closenewpass;
         private System.Windows.Forms.PictureBox BTN_MinimizaNewPass;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

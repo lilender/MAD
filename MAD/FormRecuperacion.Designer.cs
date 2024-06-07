@@ -43,6 +43,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -105,9 +106,9 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(136)))), ((int)(((byte)(189)))), ((int)(((byte)(215)))));
             this.panel1.Controls.Add(this.tableLayoutPanel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(48, 241);
+            this.panel1.Location = new System.Drawing.Point(48, 240);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(358, 528);
+            this.panel1.Size = new System.Drawing.Size(358, 529);
             this.panel1.TabIndex = 3;
             // 
             // tableLayoutPanel2
@@ -134,7 +135,7 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 72F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(358, 528);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(358, 529);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // label4
@@ -186,7 +187,7 @@
             this.TB_Respuesta.BorderFocusColor = System.Drawing.Color.MediumSlateBlue;
             this.TB_Respuesta.BorderSize = 5;
             this.TB_Respuesta.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_Respuesta.ForeColor = System.Drawing.Color.DimGray;
+            this.TB_Respuesta.ForeColor = System.Drawing.Color.White;
             this.TB_Respuesta.Location = new System.Drawing.Point(53, 285);
             this.TB_Respuesta.Margin = new System.Windows.Forms.Padding(4);
             this.TB_Respuesta.Multiline = false;
@@ -222,6 +223,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.pictureBox4);
             this.panel2.Controls.Add(this.pictureBox3);
             this.panel2.Controls.Add(this.pictureBox2);
@@ -274,6 +276,17 @@
             this.panel3.Size = new System.Drawing.Size(455, 25);
             this.panel3.TabIndex = 4;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Bookman Old Style", 10F);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(71, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(192, 21);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Recuerda, recuerda...";
+            // 
             // FormRecuperacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -322,5 +335,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label2;
     }
 }

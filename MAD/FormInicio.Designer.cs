@@ -45,6 +45,7 @@
             this.BTN_minimize = new System.Windows.Forms.PictureBox();
             this.BTN_close = new System.Windows.Forms.PictureBox();
             this.footerBAR = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -141,7 +142,7 @@
             this.TB_Inicio_Correo.BorderFocusColor = System.Drawing.Color.BlueViolet;
             this.TB_Inicio_Correo.BorderSize = 5;
             this.TB_Inicio_Correo.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_Inicio_Correo.ForeColor = System.Drawing.Color.DarkBlue;
+            this.TB_Inicio_Correo.ForeColor = System.Drawing.Color.White;
             this.TB_Inicio_Correo.Location = new System.Drawing.Point(26, 106);
             this.TB_Inicio_Correo.Margin = new System.Windows.Forms.Padding(4);
             this.TB_Inicio_Correo.Multiline = false;
@@ -182,7 +183,7 @@
             this.TB_Inicio_Contra.BorderFocusColor = System.Drawing.Color.MediumPurple;
             this.TB_Inicio_Contra.BorderSize = 5;
             this.TB_Inicio_Contra.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TB_Inicio_Contra.ForeColor = System.Drawing.Color.DarkBlue;
+            this.TB_Inicio_Contra.ForeColor = System.Drawing.Color.White;
             this.TB_Inicio_Contra.Location = new System.Drawing.Point(26, 246);
             this.TB_Inicio_Contra.Margin = new System.Windows.Forms.Padding(4);
             this.TB_Inicio_Contra.Multiline = false;
@@ -255,6 +256,7 @@
             // titleBAR
             // 
             this.titleBAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.titleBAR.Controls.Add(this.label3);
             this.titleBAR.Controls.Add(this.pictureBox1);
             this.titleBAR.Controls.Add(this.BTN_minimize);
             this.titleBAR.Controls.Add(this.BTN_close);
@@ -267,7 +269,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::MAD.Properties.Resources.MyTomillo;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 5);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(48, 38);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -307,6 +309,17 @@
             this.footerBAR.Name = "footerBAR";
             this.footerBAR.Size = new System.Drawing.Size(455, 15);
             this.footerBAR.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(66, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 21);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Saludos";
             // 
             // FormInicio
             // 
@@ -358,5 +371,6 @@
         private System.Windows.Forms.PictureBox BTN_close;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label3;
     }
 }
