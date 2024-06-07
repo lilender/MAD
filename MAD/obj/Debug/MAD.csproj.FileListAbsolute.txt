@@ -116,3 +116,6 @@ C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\M
 C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.csproj.CoreCompileInputs.cache
 C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.exe
 C:\Users\estra\Downloads\5° semester\Modelos de Administración de Datos\MAD6\MAD\obj\Debug\MAD.pdb
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormNuevaPassword.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormNuevaResp.resources
+D:\Actividades\MAD\MAD\obj\Debug\MAD.FormUsuario.resources

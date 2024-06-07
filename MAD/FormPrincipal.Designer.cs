@@ -39,23 +39,29 @@ namespace MAD
             this.L_Fav_Titulo = new System.Windows.Forms.Label();
             this.L_His_Titulo = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.B_Favoritos = new CustomControls.RJControls.RJButton();
+            this.B_Historial = new CustomControls.RJControls.RJButton();
+            this.B_Usuario = new CustomControls.RJControls.RJButton();
             this.label1 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.B_Favoritos = new CustomControls.RJControls.RJButton();
-            this.B_Historial = new CustomControls.RJControls.RJButton();
-            this.B_Usuario = new CustomControls.RJControls.RJButton();
             this.CB_Idioma = new MAD.RJComboBox();
             this.CB_Versiculo = new MAD.RJComboBox();
             this.CB_Version = new MAD.RJComboBox();
             this.CB_Cap = new MAD.RJComboBox();
             this.CB_Testa = new MAD.RJComboBox();
             this.CB_Libro = new MAD.RJComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.B_Buscar = new CustomControls.RJControls.RJButton();
             this.T_Busqueda = new MAD.RJTextBoxcs();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -64,13 +70,15 @@ namespace MAD
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel5.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.tableLayoutPanel1.AutoSize = true;
             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
@@ -79,34 +87,36 @@ namespace MAD
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.panel2, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.panel4, 3, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 56);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.Padding = new System.Windows.Forms.Padding(20, 5, 20, 0);
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 80F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 170F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1380, 742);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1382, 877);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(193)))), ((int)(((byte)(229)))));
+            this.tableLayoutPanel2.BackgroundImage = global::MAD.Properties.Resources.Background2;
             this.tableLayoutPanel2.ColumnCount = 3;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 90F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5F));
             this.tableLayoutPanel2.Controls.Add(this.panel1, 1, 0);
-            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.ForeColor = System.Drawing.SystemColors.Window;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(20, 255);
             this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 487F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1340, 487);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 566F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1342, 566);
             this.tableLayoutPanel2.TabIndex = 10;
             // 
             // panel1
@@ -114,18 +124,20 @@ namespace MAD
             this.panel1.AutoScroll = true;
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel1.BackgroundImage = global::MAD.Properties.Resources.Background3;
             this.panel1.Controls.Add(this.L_Fav_Titulo);
             this.panel1.Controls.Add(this.L_His_Titulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(67, 10);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1206, 467);
+            this.panel1.Size = new System.Drawing.Size(1207, 546);
             this.panel1.TabIndex = 22;
             // 
             // L_Fav_Titulo
             // 
             this.L_Fav_Titulo.AutoSize = true;
+            this.L_Fav_Titulo.BackColor = System.Drawing.Color.Transparent;
             this.L_Fav_Titulo.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.L_Fav_Titulo.Location = new System.Drawing.Point(15, 15);
             this.L_Fav_Titulo.Name = "L_Fav_Titulo";
@@ -159,117 +171,8 @@ namespace MAD
             this.panel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.panel2.Location = new System.Drawing.Point(23, 8);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1334, 74);
+            this.panel2.Size = new System.Drawing.Size(1336, 74);
             this.panel2.TabIndex = 9;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(1334, 74);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tomillo";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // panel4
-            // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(86)))), ((int)(((byte)(124)))));
-            this.panel4.Controls.Add(this.tableLayoutPanel4);
-            this.panel4.Location = new System.Drawing.Point(23, 88);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1334, 164);
-            this.panel4.TabIndex = 4;
-            // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
-            this.tableLayoutPanel4.ColumnCount = 3;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 1, 3);
-            this.tableLayoutPanel4.Controls.Add(this.label2, 1, 2);
-            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel3, 1, 1);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 5;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.134078F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.57557F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.64133F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.51494F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.134078F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(1334, 164);
-            this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // tableLayoutPanel5
-            // 
-            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel5.ColumnCount = 7;
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.071194F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
-            this.tableLayoutPanel5.Controls.Add(this.CB_Idioma, 0, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CB_Versiculo, 6, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CB_Version, 1, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CB_Cap, 5, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CB_Testa, 3, 0);
-            this.tableLayoutPanel5.Controls.Add(this.CB_Libro, 4, 0);
-            this.tableLayoutPanel5.Location = new System.Drawing.Point(29, 92);
-            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
-            this.tableLayoutPanel5.RowCount = 1;
-            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(1274, 58);
-            this.tableLayoutPanel5.TabIndex = 33;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label2.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(29, 64);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1274, 25);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Listado de versiones";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
-            // 
-            // tableLayoutPanel3
-            // 
-            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tableLayoutPanel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.tableLayoutPanel3.ColumnCount = 2;
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel3.Controls.Add(this.B_Buscar, 1, 0);
-            this.tableLayoutPanel3.Controls.Add(this.T_Busqueda, 0, 0);
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(26, 8);
-            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-            this.tableLayoutPanel3.RowCount = 1;
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(1280, 56);
-            this.tableLayoutPanel3.TabIndex = 18;
             // 
             // B_Favoritos
             // 
@@ -284,7 +187,7 @@ namespace MAD
             this.B_Favoritos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_Favoritos.ForeColor = System.Drawing.Color.White;
             this.B_Favoritos.Image = ((System.Drawing.Image)(resources.GetObject("B_Favoritos.Image")));
-            this.B_Favoritos.Location = new System.Drawing.Point(1209, 5);
+            this.B_Favoritos.Location = new System.Drawing.Point(1211, 5);
             this.B_Favoritos.Name = "B_Favoritos";
             this.B_Favoritos.Size = new System.Drawing.Size(111, 64);
             this.B_Favoritos.TabIndex = 11;
@@ -305,7 +208,7 @@ namespace MAD
             this.B_Historial.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.B_Historial.ForeColor = System.Drawing.Color.White;
             this.B_Historial.Image = ((System.Drawing.Image)(resources.GetObject("B_Historial.Image")));
-            this.B_Historial.Location = new System.Drawing.Point(1089, 5);
+            this.B_Historial.Location = new System.Drawing.Point(1091, 5);
             this.B_Historial.Name = "B_Historial";
             this.B_Historial.Size = new System.Drawing.Size(111, 64);
             this.B_Historial.TabIndex = 10;
@@ -334,6 +237,82 @@ namespace MAD
             this.B_Usuario.UseVisualStyleBackColor = false;
             this.B_Usuario.Click += new System.EventHandler(this.B_Usuario_Click);
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(1336, 74);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tomillo";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(86)))), ((int)(((byte)(124)))));
+            this.panel4.Controls.Add(this.tableLayoutPanel4);
+            this.panel4.Location = new System.Drawing.Point(23, 88);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1336, 164);
+            this.panel4.TabIndex = 4;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel4.BackColor = System.Drawing.Color.Transparent;
+            this.tableLayoutPanel4.ColumnCount = 3;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 96F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 1, 3);
+            this.tableLayoutPanel4.Controls.Add(this.label2, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel3, 1, 1);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 5;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.134078F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.57557F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 15.64133F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 39.51494F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.134078F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(1336, 164);
+            this.tableLayoutPanel4.TabIndex = 0;
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel5.ColumnCount = 7;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2.071194F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.32147F));
+            this.tableLayoutPanel5.Controls.Add(this.CB_Idioma, 0, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CB_Versiculo, 6, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CB_Version, 1, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CB_Cap, 5, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CB_Testa, 3, 0);
+            this.tableLayoutPanel5.Controls.Add(this.CB_Libro, 4, 0);
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(29, 92);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(1276, 58);
+            this.tableLayoutPanel5.TabIndex = 33;
+            // 
             // CB_Idioma
             // 
             this.CB_Idioma.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
@@ -341,7 +320,7 @@ namespace MAD
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CB_Idioma.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CB_Idioma.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(86)))), ((int)(((byte)(124)))));
-            this.CB_Idioma.BorderColor = System.Drawing.Color.RoyalBlue;
+            this.CB_Idioma.BorderColor = System.Drawing.Color.Navy;
             this.CB_Idioma.BorderSize = 3;
             this.CB_Idioma.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
             this.CB_Idioma.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -353,7 +332,7 @@ namespace MAD
             this.CB_Idioma.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Idioma.Name = "CB_Idioma";
             this.CB_Idioma.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Idioma.Size = new System.Drawing.Size(201, 52);
+            this.CB_Idioma.Size = new System.Drawing.Size(202, 52);
             this.CB_Idioma.TabIndex = 28;
             this.CB_Idioma.Texts = "Idioma";
             this.CB_Idioma.OnSelectedIndexChanged += new System.EventHandler(this.CB_Idioma_OnSelectedIndexChanged);
@@ -374,11 +353,11 @@ namespace MAD
             this.CB_Versiculo.IconColor = System.Drawing.SystemColors.Window;
             this.CB_Versiculo.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_Versiculo.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_Versiculo.Location = new System.Drawing.Point(1064, 3);
+            this.CB_Versiculo.Location = new System.Drawing.Point(1069, 3);
             this.CB_Versiculo.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Versiculo.Name = "CB_Versiculo";
             this.CB_Versiculo.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Versiculo.Size = new System.Drawing.Size(207, 52);
+            this.CB_Versiculo.Size = new System.Drawing.Size(204, 52);
             this.CB_Versiculo.TabIndex = 32;
             this.CB_Versiculo.Texts = "Versículo";
             this.CB_Versiculo.OnSelectedIndexChanged += new System.EventHandler(this.CB_Versiculo_OnSelectedIndexChanged);
@@ -390,7 +369,7 @@ namespace MAD
             | System.Windows.Forms.AnchorStyles.Right)));
             this.CB_Version.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.CB_Version.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(86)))), ((int)(((byte)(124)))));
-            this.CB_Version.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(130)))), ((int)(((byte)(230)))));
+            this.CB_Version.BorderColor = System.Drawing.Color.Indigo;
             this.CB_Version.BorderSize = 3;
             this.CB_Version.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
             this.CB_Version.Enabled = false;
@@ -399,11 +378,11 @@ namespace MAD
             this.CB_Version.IconColor = System.Drawing.SystemColors.Window;
             this.CB_Version.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_Version.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_Version.Location = new System.Drawing.Point(210, 3);
+            this.CB_Version.Location = new System.Drawing.Point(211, 3);
             this.CB_Version.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Version.Name = "CB_Version";
             this.CB_Version.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Version.Size = new System.Drawing.Size(201, 52);
+            this.CB_Version.Size = new System.Drawing.Size(202, 52);
             this.CB_Version.TabIndex = 27;
             this.CB_Version.Texts = "Versión";
             this.CB_Version.OnSelectedIndexChanged += new System.EventHandler(this.CB_Version_OnSelectedIndexChanged);
@@ -424,11 +403,11 @@ namespace MAD
             this.CB_Cap.IconColor = System.Drawing.SystemColors.Window;
             this.CB_Cap.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_Cap.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_Cap.Location = new System.Drawing.Point(857, 3);
+            this.CB_Cap.Location = new System.Drawing.Point(861, 3);
             this.CB_Cap.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Cap.Name = "CB_Cap";
             this.CB_Cap.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Cap.Size = new System.Drawing.Size(201, 52);
+            this.CB_Cap.Size = new System.Drawing.Size(202, 52);
             this.CB_Cap.TabIndex = 31;
             this.CB_Cap.Texts = "Capítulo";
             this.CB_Cap.OnSelectedIndexChanged += new System.EventHandler(this.CB_Cap_OnSelectedIndexChanged);
@@ -449,11 +428,11 @@ namespace MAD
             this.CB_Testa.IconColor = System.Drawing.SystemColors.Window;
             this.CB_Testa.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_Testa.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_Testa.Location = new System.Drawing.Point(443, 3);
+            this.CB_Testa.Location = new System.Drawing.Point(445, 3);
             this.CB_Testa.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Testa.Name = "CB_Testa";
             this.CB_Testa.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Testa.Size = new System.Drawing.Size(201, 52);
+            this.CB_Testa.Size = new System.Drawing.Size(202, 52);
             this.CB_Testa.TabIndex = 29;
             this.CB_Testa.Texts = "Testamento";
             this.CB_Testa.OnSelectedIndexChanged += new System.EventHandler(this.CB_Testa_OnSelectedIndexChanged);
@@ -474,14 +453,47 @@ namespace MAD
             this.CB_Libro.IconColor = System.Drawing.SystemColors.Window;
             this.CB_Libro.ListBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(228)))), ((int)(((byte)(245)))));
             this.CB_Libro.ListTextColor = System.Drawing.Color.DimGray;
-            this.CB_Libro.Location = new System.Drawing.Point(650, 3);
+            this.CB_Libro.Location = new System.Drawing.Point(653, 3);
             this.CB_Libro.MinimumSize = new System.Drawing.Size(200, 30);
             this.CB_Libro.Name = "CB_Libro";
             this.CB_Libro.Padding = new System.Windows.Forms.Padding(3);
-            this.CB_Libro.Size = new System.Drawing.Size(201, 52);
+            this.CB_Libro.Size = new System.Drawing.Size(202, 52);
             this.CB_Libro.TabIndex = 30;
             this.CB_Libro.Texts = "Libro";
             this.CB_Libro.OnSelectedIndexChanged += new System.EventHandler(this.CB_Libro_OnSelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label2.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Location = new System.Drawing.Point(29, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(1276, 25);
+            this.label2.TabIndex = 20;
+            this.label2.Text = "Listado de versiones";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.tableLayoutPanel3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.tableLayoutPanel3.ColumnCount = 2;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.B_Buscar, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.T_Busqueda, 0, 0);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(26, 8);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 1;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(1282, 56);
+            this.tableLayoutPanel3.TabIndex = 18;
             // 
             // B_Buscar
             // 
@@ -493,9 +505,9 @@ namespace MAD
             this.B_Buscar.BorderSize = 0;
             this.B_Buscar.FlatAppearance.BorderSize = 0;
             this.B_Buscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.B_Buscar.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.B_Buscar.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.B_Buscar.ForeColor = System.Drawing.Color.Navy;
-            this.B_Buscar.Location = new System.Drawing.Point(1183, 3);
+            this.B_Buscar.Location = new System.Drawing.Point(1185, 3);
             this.B_Buscar.Name = "B_Buscar";
             this.B_Buscar.Size = new System.Drawing.Size(94, 34);
             this.B_Buscar.TabIndex = 27;
@@ -521,12 +533,79 @@ namespace MAD
             this.T_Busqueda.Name = "T_Busqueda";
             this.T_Busqueda.Padding = new System.Windows.Forms.Padding(7);
             this.T_Busqueda.PasswordChar = false;
-            this.T_Busqueda.Size = new System.Drawing.Size(1172, 36);
+            this.T_Busqueda.Size = new System.Drawing.Size(1174, 36);
             this.T_Busqueda.TabIndex = 27;
             this.T_Busqueda.Texts = "Ingrese palabra(s) por buscar...";
             this.T_Busqueda.UnderlinedStyle = true;
             this.T_Busqueda.Enter += new System.EventHandler(this.T_Busqueda_Enter);
             this.T_Busqueda.Leave += new System.EventHandler(this.T_Busqueda_Leave);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.panel3.Controls.Add(this.label3);
+            this.panel3.Controls.Add(this.pictureBox3);
+            this.panel3.Controls.Add(this.pictureBox2);
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel3.Location = new System.Drawing.Point(0, 0);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(1382, 50);
+            this.panel3.TabIndex = 3;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::MAD.Properties.Resources.MyTomillo;
+            this.pictureBox3.Location = new System.Drawing.Point(12, 5);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(48, 38);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 2;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Image = global::MAD.Properties.Resources.minimizar;
+            this.pictureBox2.Location = new System.Drawing.Point(1313, 13);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::MAD.Properties.Resources.boton_cancelar;
+            this.pictureBox1.Location = new System.Drawing.Point(1348, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(24, 24);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(18)))), ((int)(((byte)(25)))), ((int)(((byte)(70)))));
+            this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel5.Location = new System.Drawing.Point(0, 852);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(1382, 25);
+            this.panel5.TabIndex = 4;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 10F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(68, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 21);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Bienvenido";
             // 
             // FormPrincipal
             // 
@@ -534,8 +613,11 @@ namespace MAD
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(67)))), ((int)(((byte)(115)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1382, 753);
+            this.ClientSize = new System.Drawing.Size(1382, 877);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel3);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPrincipal";
             this.Text = "Bienvenido";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
@@ -550,6 +632,11 @@ namespace MAD
             this.tableLayoutPanel4.PerformLayout();
             this.tableLayoutPanel5.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -597,5 +684,11 @@ namespace MAD
         private Panel panel1;
         private Label L_Fav_Titulo;
         private Label L_His_Titulo;
+        private Panel panel3;
+        private Panel panel5;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox1;
+        private Label label3;
     }
 }
