@@ -151,12 +151,12 @@ namespace MAD
         {
             EnlaceDB enlaceDB = new EnlaceDB();
             enlaceDB.sp_update_usuarios("borrar", usuario, id);
-            Application.Exit();
+            Application.Restart();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

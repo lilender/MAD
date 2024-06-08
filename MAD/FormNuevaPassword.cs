@@ -53,7 +53,7 @@ namespace MAD
 
         private void BTN_closenewpass_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Close();
         }
 
         private void BTN_MinimizaNewPass_Click(object sender, EventArgs e)

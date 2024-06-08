@@ -57,11 +57,11 @@ namespace MAD
             this.B_Buscar = new CustomControls.RJControls.RJButton();
             this.T_Busqueda = new MAD.RJTextBoxcs();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -115,8 +115,8 @@ namespace MAD
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 566F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(1342, 566);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 517F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(1342, 517);
             this.tableLayoutPanel2.TabIndex = 10;
             // 
             // panel1
@@ -124,14 +124,14 @@ namespace MAD
             this.panel1.AutoScroll = true;
             this.panel1.AutoSize = true;
             this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.BackgroundImage = global::MAD.Properties.Resources.Background3;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.L_Fav_Titulo);
             this.panel1.Controls.Add(this.L_His_Titulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(67, 10);
             this.panel1.Margin = new System.Windows.Forms.Padding(0, 10, 0, 10);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1207, 546);
+            this.panel1.Size = new System.Drawing.Size(1207, 497);
             this.panel1.TabIndex = 22;
             // 
             // L_Fav_Titulo
@@ -553,6 +553,17 @@ namespace MAD
             this.panel3.Size = new System.Drawing.Size(1382, 50);
             this.panel3.TabIndex = 3;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 10F);
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(68, 14);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(105, 21);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Bienvenido";
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::MAD.Properties.Resources.MyTomillo;
@@ -596,17 +607,6 @@ namespace MAD
             this.panel5.Size = new System.Drawing.Size(1382, 25);
             this.panel5.TabIndex = 4;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 10F);
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(68, 14);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(105, 21);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Bienvenido";
-            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -619,6 +619,7 @@ namespace MAD
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FormPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bienvenido";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.tableLayoutPanel1.ResumeLayout(false);

@@ -43,7 +43,7 @@ namespace MAD
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Restart();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
